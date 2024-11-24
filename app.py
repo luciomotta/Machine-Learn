@@ -53,7 +53,7 @@ if diametro:  # SE FOR ZERO entende como falso
 
     # Adiciona o ícone de olho ao lado do texto
     image_path = 'https://github.com/luciomotta/Machine-Learn/blob/main/src/img/Figure_ploat-scatter.png'  # Substitua pelo caminho da sua imagem
-    st.image(image_path, width=50);  # Adiciona a imagem ao resultado
+    st.image('https://raw.githubusercontent.com/luciomotta/Machine-Learn/main/src/img/Figure_ploat-scatter.png', caption='Gráfico de dispersão', use_column_width=True)
 
     if os.path.exists(image_path):
         if st.button("Ver gráfico"):
