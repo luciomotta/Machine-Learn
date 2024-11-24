@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "machine-learn"
+version = "0.1.0"
+description = "Projeto de aprendizagem de maquina, que irar ler os valores de pizzas.csv e ver (diametro,preco) e aprender a precificar outros diametros aprindo uma pagina WEB para isso"
+authors = ["luciomotta <dev.lucio0@gmail.com>"]
+license = "Apache=2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
