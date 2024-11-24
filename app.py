@@ -60,3 +60,4 @@ if diametro:  # SE FOR ZERO entende como falso
         if st.button("Ver gráfico"):
             st.image(image_path, caption='Gráfico de dispersão', use_container_width =True)
             st.write("=Esses foram os dados que treinaram a Máquina Virtual que faz a previsão do preço.")
+            
