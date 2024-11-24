@@ -52,7 +52,7 @@ if diametro:  # SE FOR ZERO entende como falso
     st.write(f"Para uma pizza de {diametro:.2f} cm, o valor previsto é R$ {preco_previsto:.2f}")
 
     # Adiciona o ícone de olho ao lado do texto
-    image_path = 'src\img\Figure_ploat-scatter.png'  # Substitua pelo caminho da sua imagem
+    image_path = 'https://github.com/luciomotta/Machine-Learn/blob/main/src/img/Figure_ploat-scatter.png'  # Substitua pelo caminho da sua imagem
     if os.path.exists(image_path):
         if st.button("Ver gráfico"):
             try:
