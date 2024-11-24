@@ -72,3 +72,9 @@ O Poetry simplifica o gerenciamento de dependências e ambientes virtuais, torna
 ## Conclusão
 
 Este projeto demonstra como é rápido e fácil criar uma aplicação web de Machine Learning para prever preços sem a necessidade de cálculos matemáticos manuais. Com o Streamlit e o Scikit-learn, você pode desenvolver e implantar modelos de Machine Learning de forma eficiente e intuitiva.
+
+## Visualização da Aplicação
+
+Você pode visualizar a aplicação em funcionamento através do seguinte link:
+
+[Visualizar Aplicação](https://machine-learn-pizza-devlucio.streamlit.app/)
