@@ -45,7 +45,7 @@ modelo.fit(x, y)
 st.title("Prevendo o preço da pizza")
 st.divider()
 
-diametro = st.number_input("Digite o tamanho diâmetro da pizza (cm):", min_value=0.0, max_value=100.0, step=0.1)
+diametro = st.number_input("Digite o tamanho diâmetro da pizza (cm):", min_value=10.0, max_value=100.0, step=2.0)
 
 if diametro:  # SE FOR ZERO entende como falso
     preco_previsto = modelo.predict([[diametro]])[0][0]
