@@ -57,7 +57,7 @@ if diametro:  # SE FOR ZERO entende como falso
     image_path = 'src\img\Figure_ploat-scatter.png'  # Substitua pelo caminho da sua imagem
     
     
-    st.image(image_path, caption='Gráfico de dispersão', use_container_width =True)
+    #st.image(image_path, caption='Gráfico de dispersão', use_container_width =True)
 
     if os.path.exists(image_path):
         if st.button("Ver gráfico"):
