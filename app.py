@@ -53,10 +53,12 @@ diametro = st.number_input("Digite o tamanho diâmetro da pizza (cm):", min_valu
 if diametro:  # SE FOR ZERO entende como falso
     preco_previsto = modelo.predict([[diametro]])[0][0]
     st.write(f"Para uma pizza de {diametro:.2f} cm, o valor previsto é R$ {preco_previsto:.2f}")
-    st.image(image_path, caption='Gráfico de dispersão', use_container_width =True)
-
     # Adiciona o ícone de olho ao lado do texto
     image_path = 'src\img\Figure_ploat-scatter.png'  # Substitua pelo caminho da sua imagem
+    
+    
+    st.image(image_path, caption='Gráfico de dispersão', use_container_width =True)
+
     if os.path.exists(image_path):
         if st.button("Ver gráfico"):
             st.image(image_path, caption='Gráfico de dispersão', use_container_width =True)
